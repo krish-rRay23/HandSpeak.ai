@@ -69,6 +69,26 @@ The system implements a **dual-backend design** to satisfy divergent client cons
 
 ---
 
+## 🏋️ Training Pipeline & Outputs
+
+The project includes an industry-standard training notebook (`training/train_colab.ipynb`) capable of producing production-ready models.
+
+### Key Outputs
+- **`best_model.pth`**: PyTorch weights with highest validation accuracy.
+- **`asl_model_v2.onnx`**: Optimized ONNX model for mobile deployment (verified against PyTorch).
+- **Visualization Artifacts**:
+    - 📈 **Learning Curves**: Real-time plots for Loss and Accuracy (Train vs Val).
+    - 📊 **Confusion Matrix**: Heatmap showing per-letter classification performance.
+    - 🎯 **Class Distribution**: Analysis of dataset balance before/after augmentation.
+    - ⏱️ **Inference Latency**: CPU benchmarking results (ms/sample).
+
+### Advanced Metrics
+- **Top-3 Accuracy**: Measures if the correct letter was in the top 3 predictions.
+- **Classification Report**: Precision, Recall, and F1-Score for every letter (A-Z).
+- **Mixed Precision (AMP)**: Training logs showing gradient scaling for performance.
+
+---
+
 ## 🔄 Data Pipeline & Preprocessing
 
 Robust preprocessing is central to generalization. We follow a strict **canonicalization pipeline** on the 21 MediaPipe joints across a 30-frame window:
