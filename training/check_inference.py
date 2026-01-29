@@ -44,3 +44,4 @@ def check_inference():
 
 if __name__ == "__main__":
     check_inference()
+# Validation schema
