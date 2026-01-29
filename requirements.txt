@@ -7,3 +7,4 @@ pydantic
 python-multipart
 requests
 onnxruntime
+# Dev prune
