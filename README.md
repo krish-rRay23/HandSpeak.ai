@@ -25,6 +25,14 @@
 
 ---
 
+## 🎥 Demo
+
+<video src="handspeak_demo.mp4" controls="controls" style="max-width: 100%;">
+  Your browser does not support the video tag.
+</video>
+
+---
+
 ## 📚 Table of Contents
 
 - [Introduction](#-introduction)
