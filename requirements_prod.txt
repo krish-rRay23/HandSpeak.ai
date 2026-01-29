@@ -4,3 +4,4 @@ pydantic
 python-multipart
 numpy
 onnxruntime
+# Core dependencies locked
