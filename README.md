@@ -27,9 +27,7 @@
 
 ## 🎥 Demo
 
-<video src="handspeak_demo.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/b61fb2b5-14a3-48c9-a056-04680f797cb7
 
 ---
 
